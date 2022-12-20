@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     color: #F5F5F5;
-   
 }
 
 body {
@@ -15,13 +14,10 @@ body {
 }
 
 .App{
-    
     width: auto;
     background-color: #1A1B21;
     border-radius: 10px;
     position: fixed;
-    
-
 }
 
 img{
@@ -93,10 +89,14 @@ color: black;
 
 @media screen and (max-width: 500px) {
     body{
-        background-color: black;
-    }
-
-    .App{
+        background-color: #151721;
+        display: flex;
+        max-height: fit-content;
+        position: relative;
+        left: 35px;
+        top: 55px;
         
     }
+
 }
+
