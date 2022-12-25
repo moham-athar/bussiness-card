@@ -11,6 +11,7 @@
 body {
     display: flex;
     flex-wrap: wrap;
+    background: #4b4b5d;
 }
 
 .App{
@@ -89,14 +90,10 @@ color: black;
 
 @media screen and (max-width: 500px) {
     body{
-        background-color: #151721;
         display: flex;
         max-height: fit-content;
         position: relative;
         left: 35px;
         top: 55px;
-        
     }
-
 }
-

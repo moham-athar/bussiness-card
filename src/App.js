@@ -4,7 +4,6 @@ import About from './About';
 import Info from './Info'
 import Interest from './Interest';
 import Footer from './Footer';
-
 function App() {
   return (
     <div className="App">
